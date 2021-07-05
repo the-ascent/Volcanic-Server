@@ -1,0 +1,30 @@
+{
+  "name": "volcanic-server",
+  "version": "1.0.0",
+  "description": "Virtual network server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --experimental-modules server.js"
+  },
+  "keywords": [],
+  "author": "javaarchive",
+  "license": "GPL",
+  "dependencies": {
+    "async-lock": "^1.3.0",
+    "cookie": "^0.4.1",
+    "dotenv": "^9.0.2",
+    "nanoid": "^3.1.23",
+    "node-fetch": "^2.6.1",
+    "tslib": "^2.2.0",
+    "uuid": "^8.3.2",
+    "uwebsockets.js": "^19.0.0-docs",
+    "winston": "^3.3.3",
+    "ws": "^7.4.5"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {
+    "bufferutil": "^4.0.3",
+    "utf-8-validate": "^5.0.5"
+  }
+}
